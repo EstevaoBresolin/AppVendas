@@ -84,24 +84,24 @@ pois como está em debug, tentará usar o localHost, que não sera encontrado de
 
 ### Pedido: 
 
-Usuarios
+**Usuarios:**
 
-Descrição:
+**Descrição:**
 A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.
 
-Como funciona:
+__Como funciona:__
 
-1 - O representante seleciona o cliente na lista de clientes cadastrados. (Obrigatório)
-2 - A seguir, escolhe os produtos desejados, inserindo a quantidade. (Obrigatório)
-3 - O representante que possuir comissão variável pode aumentar o valor dos itens.
-4 - O sistema calcula automaticamente o valor total do pedido com base na lista de preços atualizada.
-5 - Selecionar forma de pagamento (Obrigatório)
-6 - Adicionar Comentários (Opcional)
-7 - Selecionar Segundo Vendedor (Opcional)
-8 - O pedido pode ser salvo como rascunho, ou finalizado.
-9 - Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
+1. O representante seleciona o cliente na lista de clientes cadastrados. (Obrigatório)
+2. A seguir, escolhe os produtos desejados, inserindo a quantidade. (Obrigatório)
+3. O representante que possuir comissão variável pode aumentar o valor dos itens.
+4. O sistema calcula automaticamente o valor total do pedido com base na lista de preços atualizada.
+5. Selecionar forma de pagamento (Obrigatório)
+6. Adicionar Comentários (Opcional)
+7. Selecionar Segundo Vendedor (Opcional)
+8. O pedido pode ser salvo como rascunho, ou finalizado.
+9. Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
 
-Desenvolvedores:
+**Desenvolvedores:**
 
 
 
