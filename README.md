@@ -101,6 +101,12 @@ __Como funciona:__
 
 **Métodos NovoPedido:**
 
+<!-- **protected override async Task OnInitializedAsync()**  
+
+- Primeiro método que é carregado quando a pagina é aberta  
+- Carrega todas as informações necessários para ser possivel efetuar um pedido:
+Lista de Preço, Formas de pagamento, Vendedores, Dados do usuário logado, comissão variável. -->
+
 **private void AdicionarAoCarrinho(vwListaDePreco item, decimal quantidade)**  
 - Primeiro é valido se esse item já está no pedido, se estiver, a quantidade é atualizada e o preço total também,  
 se não estiver, o item é adicionado ao pedido.  
@@ -122,7 +128,7 @@ Esse método serve para quando um item que já esta na lista, é alterado seu va
 Esse método monta o pedido com todas as informações  
 - É criado uma projeção de Pedido
 - A Lista de produtos é adicionada a projeção
-- É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, etc...
+- É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...
 
 ### Cliente: 
 
