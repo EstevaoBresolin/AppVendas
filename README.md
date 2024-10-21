@@ -1,4 +1,4 @@
-<h1>APP Força de Vendas </h1> 
+<h1>APP Força de Vendas :shopping_cart:</h1> 
 
 <!-- <p align="center">
   <img src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg"/>
@@ -89,15 +89,15 @@ A funcionalidade de pedido permite que os representantes comerciais realizem os 
 
 __Como funciona:__
 
-1. O representante seleciona o cliente na lista de clientes cadastrados. (Obrigatório)
-2. A seguir, escolhe os produtos desejados, inserindo a quantidade. (Obrigatório)
-3. O representante que possuir comissão variável pode aumentar o valor dos itens.
-4. O sistema calcula automaticamente o valor total do pedido com base na lista de preços atualizada.
-5. Selecionar forma de pagamento (Obrigatório)
-6. Adicionar Comentários (Opcional)
-7. Selecionar Segundo Vendedor (Opcional)
-8. O pedido pode ser salvo como rascunho, ou finalizado.
-9. Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
+> 1. O representante seleciona o cliente na lista de clientes cadastrados. (Obrigatório)
+> 2. A seguir, escolhe os produtos desejados, inserindo a quantidade. (Obrigatório)
+> 3. O representante que possuir comissão variável pode aumentar o valor dos itens.
+> 4. O sistema calcula automaticamente o valor total do pedido com base na lista de preços atualizada.
+> 5. Selecionar forma de pagamento (Obrigatório)
+> 6. Adicionar Comentários (Opcional)
+> 7. Selecionar Segundo Vendedor (Opcional)
+> 8. O pedido pode ser salvo como rascunho, ou finalizado.
+> 9. Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
 
 **Métodos NovoPedido:**
 
@@ -116,7 +116,7 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 
 **private void AlteraPrecoTotal(Produto prod)**  
 
-Esse método serve para quando um item que já esta na lista, é alterado seu valor ou quantidade.  
+> Esse método serve para quando um item que já esta na lista, é alterado seu valor ou quantidade.  
 > - É feito diversas validações: Preço Negociavel não pode ser menor que o preço original (somente se preço com desconto não existir)  
 > - Se o Preço for alterado e o item for de uma grade, a lista de produtos é percorrida atualizando o valor de todos os itens dessa grade.  
 > - Se quantidade igual a 0 o item é removido da lista  
@@ -125,7 +125,7 @@ Esse método serve para quando um item que já esta na lista, é alterado seu va
 
 **private async void SalvarPedido(int situacao)**  
 
-Esse método monta o pedido com todas as informações  
+> Esse método monta o pedido com todas as informações  
 > - É criado uma projeção de Pedido
 > - A Lista de produtos é adicionada a projeção
 > - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...
