@@ -78,9 +78,10 @@ Primeiro é necessário clonar a aplicação:
     após isso clique em Conectar e assim o repositório será clonado.  
 
 Passo a passo para rodar a aplicação dentro do simulador android. :iphone:  
-Ao lado do botão de Iniciar selecione Estrutura e net8.0-android  
-é necessário para funcionar dentro do simulador, mudar a url base da API  
-pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
+
+    Ao lado do botão de Iniciar selecione Estrutura e net8.0-android  
+    é necessário para funcionar dentro do simulador, mudar a url base da API  
+    pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
 
 ## Pedido: 
 
