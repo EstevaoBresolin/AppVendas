@@ -82,7 +82,7 @@ Ao lado do botão de Iniciar selecione Estrutura e net8.0-android
 é necessário para funcionar dentro do simulador, mudar a url base da API  
 pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
 
-### Pedido: 
+## Pedido: 
 
 **Descrição:**
 A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.
