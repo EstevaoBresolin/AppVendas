@@ -36,19 +36,19 @@
 
 ## Funcionalidades
 
-:heavy_check_mark: [Pedido](#pedido)
+:heavy_check_mark: [Pedido](#pedido-shopping_cart)
 
-:heavy_check_mark: [Cliente](#cliente)
+:heavy_check_mark: [Cliente](#cliente-frowning_man)
 
-:heavy_check_mark: [Consulta Pedidos](#Consulta-Pedidos)
+:heavy_check_mark: [Consulta Pedidos](#Consulta-Pedidos-shopping_cart)
 
-:heavy_check_mark: [Consulta Clientes](#Consulta-Clientes)
+:heavy_check_mark: [Consulta Clientes](#Consulta-Clientes-busts_in_silhouette)
 
-:heavy_check_mark: [Permissões](#Permissões)
+:heavy_check_mark: [Permissões](#Permissões-lock)
 
 :heavy_check_mark: [Usuários](#Usuários)
 
-:heavy_check_mark: [Offline](#Offline)
+:heavy_check_mark: [Offline](#Offline-signal_strength)
 
 
 ## Layout ou Deploy da Aplicação
@@ -83,7 +83,7 @@ Passo a passo para rodar a aplicação dentro do simulador android. :iphone:
     é necessário para funcionar dentro do simulador, mudar a url base da API  
     pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
 
-## Pedido: 
+## Pedido: :shopping_cart:
 
 **Descrição:**
 A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.
@@ -131,19 +131,19 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 > - A Lista de produtos é adicionada a projeção
 > - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...
 
-## Cliente: 
+## Cliente: :frowning_man:
 
 Descrição do programa Cliente
 
-## Consulta Pedidos: 
+## Consulta Pedidos: :shopping_cart:
 
 Descrição do programa Consulta Pedidos
 
-## Consulta Clientes: 
+## Consulta Clientes: :busts_in_silhouette:
 
 Descrição do programa Consulta Clientes
 
-## Permissões: 
+## Permissões: :lock:
 
 Descrição do programa Permissões
 
@@ -153,7 +153,7 @@ Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repa
 
 Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e senha, somente para fins da loja Apple.
 
-## Offline: 
+## Offline: :signal_strength:
 
 Descrição das funcionalidades Offline
 
