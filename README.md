@@ -64,7 +64,7 @@
 ## Pré-requisitos
 
 :warning: [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/)  
-:warning: Baixar no Visual Studio [Pacote Desenvolvimento de .NET Multi-Plataform App UI](https://learn.microsoft.com/pt-br/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMaui)  
+:warning: [Pacote Desenvolvimento de .NET Multi-Plataform App UI](https://learn.microsoft.com/pt-br/dotnet/communitytoolkit/maui/get-started?tabs=CommunityToolkitMaui) (Baixar no Visual Studio)  
 :warning: [Android Device Manager](https://learn.microsoft.com/pt-br/dotnet/maui/android/emulator/device-manager?view=net-maui-8.0)  
 :warning: [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)  
 
@@ -81,13 +81,6 @@ Passo a passo para rodar a aplicação dentro do simulador android.
 Ao lado do botão de Iniciar selecione Estrutura e net8.0-android  
 é necessário para funcionar dentro do simulador, mudar a url base da API  
 pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
-
-
-## Casos de Uso
-
-Explique com mais detalhes como a sua aplicação poderia ser utilizada. O uso de **gifs** aqui seria bem interessante. 
-
-Exemplo: Caso a sua aplicação tenha alguma funcionalidade de login apresente neste tópico os dados necessários para acessá-la.
 
 ### Pedido: 
 
@@ -119,16 +112,12 @@ Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e 
 
 Descrição das funcionalidades Offline
 
-## Iniciando/Configurando banco de dados
-
-Se for necessário configurar algo antes de iniciar o banco de dados insira os comandos a serem executados 
-
 ## Linguagens, dependencias e libs utilizadas :books:
 
 Linguagens:
-- [Front End - .Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)  
-- [BackEnd - C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)  
-- [Comunicação via API - API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)  
+- Front End - [.Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)  
+- BackEnd - [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)  
+- Comunicação via API - [API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)  
 
 Bibliotecas:
 - Notificações [OneSignal](https://documentation.onesignal.com/reference/quick-start-api-guide)
