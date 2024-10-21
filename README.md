@@ -46,7 +46,7 @@
 
 :heavy_check_mark: [Permissões](#Permissões-lock)
 
-:heavy_check_mark: [Usuários](#Usuários)
+:heavy_check_mark: [Usuários](#Usuários-frowning_person)
 
 :heavy_check_mark: [Offline](#Offline-signal_strength)
 
@@ -147,7 +147,7 @@ Descrição do programa Consulta Clientes
 
 Descrição do programa Permissões
 
-## Usuários: 
+## Usuários: :frowning_person:
 
 Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repassados os representantes.  
 
