@@ -11,7 +11,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p> -->
 
-> Status do Projeto: :heavy_check_mark: concluido
+> Status do Projeto: :heavy_check_mark: Em Andamento
 
 ### Tópicos 
 
@@ -26,7 +26,7 @@
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
 
-## Descrição do projeto 
+## Descrição do projeto :blue_book:
 
 <p align="justify">
   Este aplicativo de vendas é uma solução híbrida desenvolvida em .NET MAUI Blazor, projetada para atender às necessidades de representantes comerciais. Com ele, os representantes podem gerenciar eficientemente suas operações de vendas, permitindo o cadastro de clientes, realização de pedidos, geração de relatórios, consulta de informações de clientes e pedidos, além de acessar listas de preços atualizadas. O aplicativo oferece uma interface amigável e funcional, que pode ser utilizada tanto em dispositivos Android quanto IOS, podendo ser utilizado offline, proporcionando flexibilidade e praticidade para os profissionais de vendas no campo.
@@ -149,9 +149,9 @@ Descrição do programa Permissões
 
 ## Usuários: 
 
-Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repassados os representantes  
+Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repassados os representantes.  
 
-Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e senha, somente para fins da loja Apple
+Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e senha, somente para fins da loja Apple.
 
 ## Offline: 
 
