@@ -32,10 +32,10 @@
   Este aplicativo de vendas é uma solução híbrida desenvolvida em .NET MAUI Blazor, projetada para atender às necessidades de representantes comerciais. Com ele, os representantes podem gerenciar eficientemente suas operações de vendas, permitindo o cadastro de clientes, realização de pedidos, geração de relatórios, consulta de informações de clientes e pedidos, além de acessar listas de preços atualizadas. O aplicativo oferece uma interface amigável e funcional, que pode ser utilizada tanto em dispositivos Android quanto IOS, podendo ser utilizado offline, proporcionando flexibilidade e praticidade para os profissionais de vendas no campo.
 </p>
 
-Front End - [.Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)
-Estilização/Componentes - [MudBlazor](https://mudblazor.com/docs/overview)
-BackEnd - [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
-Comunicação via API - [API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)
+Front End - [.Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)  
+Estilização/Componentes - [MudBlazor](https://mudblazor.com/docs/overview)  
+BackEnd - [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)  
+Comunicação via API - [API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)  
 
 ## Funcionalidades
 
