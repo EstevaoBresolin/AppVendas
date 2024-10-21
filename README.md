@@ -107,14 +107,14 @@ __Como funciona:__
 - Carrega todas as informações necessários para ser possivel efetuar um pedido:
 Lista de Preço, Formas de pagamento, Vendedores, Dados do usuário logado, comissão variável. -->
 
-**private void AdicionarAoCarrinho(vwListaDePreco item, decimal quantidade)**  
+> **private void AdicionarAoCarrinho(vwListaDePreco item, decimal quantidade)**  
 - Primeiro é valido se esse item já está no pedido, se estiver, a quantidade é atualizada e o preço total também,  
 se não estiver, o item é adicionado ao pedido.  
 - Depois é feito uma validação na quantidade, para ver se ela é multipla do seu multiplicador,  
 por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel adicionar 400 gramas.  
 - Por ultimo o item é adicionado a lista Produtos
 
-**private void AlteraPrecoTotal(Produto prod)**  
+> **private void AlteraPrecoTotal(Produto prod)**  
 
 Esse método serve para quando um item que já esta na lista, é alterado seu valor ou quantidade.  
 - É feito diversas validações: Preço Negociavel não pode ser menor que o preço original (somente se preço com desconto não existir)  
@@ -123,36 +123,36 @@ Esse método serve para quando um item que já esta na lista, é alterado seu va
 - A validação se a quantidade é multipla do multiplicador do item.  
 - Altera o preço total do item e o preço total do pedido.
 
-**private async void SalvarPedido(int situacao)**  
+> **private async void SalvarPedido(int situacao)**  
 
 Esse método monta o pedido com todas as informações  
 - É criado uma projeção de Pedido
 - A Lista de produtos é adicionada a projeção
 - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...
 
-### Cliente: 
+## Cliente: 
 
 Descrição do programa Cliente
 
-### Consulta Pedidos: 
+## Consulta Pedidos: 
 
 Descrição do programa Consulta Pedidos
 
-### Consulta Clientes: 
+## Consulta Clientes: 
 
 Descrição do programa Consulta Clientes
 
-### Permissões: 
+## Permissões: 
 
 Descrição do programa Permissões
 
-### Usuários: 
+## Usuários: 
 
 Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repassados os representantes  
 
 Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e senha, somente para fins da loja Apple
 
-### Offline: 
+## Offline: 
 
 Descrição das funcionalidades Offline
 
