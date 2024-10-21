@@ -73,9 +73,9 @@
 
 1. Primeiro é necessário clonar a aplicação:
 
-1. 1. Abra o Visual Studio e clique em Clonar um repositório,  
-selecione Azure DevOps e depois clique em FeltrinAppWinnersV2_2  
-após isso clique em Conectar e assim o repositório será clonado.  
+    Abra o Visual Studio e clique em Clonar um repositório,  
+    selecione Azure DevOps e depois clique em FeltrinAppWinnersV2_2  
+    após isso clique em Conectar e assim o repositório será clonado.  
 
 Passo a passo para rodar a aplicação dentro do simulador android. :iphone:  
 Ao lado do botão de Iniciar selecione Estrutura e net8.0-android  
