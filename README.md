@@ -71,7 +71,7 @@
 
 ## Como rodar a aplicação :arrow_forward:
 
-1. Primeiro é necessário clonar a aplicação:
+Primeiro é necessário clonar a aplicação:
 
     Abra o Visual Studio e clique em Clonar um repositório,  
     selecione Azure DevOps e depois clique em FeltrinAppWinnersV2_2  
