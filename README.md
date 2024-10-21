@@ -109,6 +109,7 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 - Por ultimo o item é adicionado a lista Produtos
 
 **private void AlteraPrecoTotal(Produto prod)**  
+
 Esse método serve para quando um item que já esta na lista, é alterado seu valor ou quantidade.  
 - É feito diversas validações: Preço Negociavel não pode ser menor que o preço original (somente se preço com desconto não existir)  
 - Se o Preço for alterado e o item for de uma grade, a lista de produtos é percorrida atualizando o valor de todos os itens dessa grade.  
@@ -117,6 +118,7 @@ Esse método serve para quando um item que já esta na lista, é alterado seu va
 - Altera o preço total do item e o preço total do pedido.
 
 **private async void SalvarPedido(int situacao)**  
+
 Esse método monta o pedido com todas as informações  
 - É criado uma projeção de Pedido
 - A Lista de produtos é adicionada a projeção
