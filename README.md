@@ -50,6 +50,10 @@
 
 :heavy_check_mark: [Offline](#Offline-signal_strength)
 
+:heavy_check_mark: [Home](#Home-house)
+
+:heavy_check_mark: [MainLayout](#MainLayout-houses)
+
 
 ## Layout ou Deploy da Aplicação
 
