@@ -84,9 +84,13 @@ Passo a passo para rodar a aplicação dentro do simulador android. :iphone:
     pois como está em debug, tentará usar o localHost, que não sera encontrado dentro do simulador
 
 ## Pedido: :shopping_cart:
+<!-- **Descrição:**
+A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.   -->
+
+1. **Novo Pedido:**  
 
 **Descrição:**
-A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.
+A funcionalidade de Novo Pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.  
 
 __Como funciona:__
 
@@ -100,7 +104,7 @@ __Como funciona:__
 > 8. O pedido pode ser salvo como rascunho, ou finalizado.
 > 9. Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
 
-**Métodos NovoPedido:**
+
 
 <!-- **protected override async Task OnInitializedAsync()**  
 
@@ -129,7 +133,34 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 > Esse método monta o pedido com todas as informações  
 > - É criado uma projeção de Pedido
 > - A Lista de produtos é adicionada a projeção
-> - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...
+> - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...  
+
+2. **Index Pedido:**  
+
+__Descrição__
+
+Pagina inicial dos pedidos, traz somente os pedidos feitos no aplicativo e o botão de novo pedido.  
+Os pedidos que estiverem em rascunho podem ser editados, excluidos e gerado um relatório.  
+Os pedidos que foram enviados, podem ser visualizados, replicadas e os que ja foram integrados é possivel gerar um pdf do pedido.
+
+3. **Editar Pedido / Replicar Pedido**  
+
+__Descrição__
+
+A maioria dos métodos são iguais a do Novo Pedido  
+
+Editar Pedido:  
+A funcionalidade dessa pagina é poder editar somente os rascunhos.  
+
+Replicar Pedido:  
+A funcionalidade dessa pagina é replicar pedidos enviados.  
+
+**protected override async Task OnInitializedAsync()**  
+> Esse método é o primeiro a ser carregado quando a pagina abre. Aqui fazemos a busca do pedido via API através do ID,  
+depois fazemos a busca dos itens desse pedido. 
+> - Os itens salvos no banco não possuem diversas informações necessárias para a visualização,  
+então é feita uma busca na Lista de Preço, para pegar as informações que faltam.  
+> - É montado todas as informações do pedido como dados de cliente, formas de pagamento e vendedores.  
 
 ## Cliente: :frowning_man:
 
@@ -174,4 +205,4 @@ Bibliotecas:
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: 2024 - Força de Vendas
+Copyright :copyright: 2024 - Feltrin Sementes
