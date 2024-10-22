@@ -1,15 +1,5 @@
 <h1>APP Força de Vendas :shopping_cart:</h1> 
 
-<!-- <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.distrimar.com.br%2Ffornecedores%2F43%2Ffeltrin-sementes&psig=AOvVaw2Pq0JwRxraxYCw_LccVcIk&ust=1729700038491000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCuwfWwookDFQAAAAAdAAAAABAa"/>
-  <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
-</p> -->
 
 > Status do Projeto: :heavy_check_mark: Em Andamento
 
@@ -343,4 +333,3 @@ Copyright :copyright: 2024 - Feltrin Sementes
 
 
 
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.distrimar.com.br%2Ffornecedores%2F43%2Ffeltrin-sementes&psig=AOvVaw2Pq0JwRxraxYCw_LccVcIk&ust=1729700038491000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCuwfWwookDFQAAAAAdAAAAABAa"/>
