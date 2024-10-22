@@ -198,31 +198,77 @@ Essa pagina traz informações detalhadas do pedido selecionado.
 
 __Funcionalidade:__
 
-> 1. Replicar o pedido, será replicado itens, forma de pagamento, cliente, comentários, vendedor.
+> 1. Replicar o pedido, será replicado itens, forma de pagamento, cliente, comentários, vendedor.  
  Valor negociavel dos itens NÃO SERÁ REPLICADO ( ficará com o valor original).  
 > 2. É possivel efetuar o download do resumo do pedido.
 > 3. Clicando no nome do Cliente, será redirecionado para as informações detalhadas do cliente.
 
 **private async void Replicar(long id)**
-> Esse método é executado se for seleocinada a opção Replicar Pedido.
+> Esse método é executado se for selecionada a opção Replicar Pedido.
 > - A verificado se todos os itens ainda possuem estoque para poderem ser replicados,  
 em caso de itens em falta, é mostrado uma mensagem com os itens que não possuem estoque.
 
+**3. Replicar Consulta Pedidos**  
+
+Essa pagina replica o pedido selecionado. (Pedido que vem do winners) 
+
+__Como funciona:__
+
+> 1. Todas as informaçãoes do pedido já vem preenchidas de acordo com o pedido selecionado.  
+> 2. Valor Negociavel NÃO É REPLICADO, produto vem com o valor original 
+
+
 ## Consulta Clientes: :busts_in_silhouette:
 
-Descrição do programa Consulta Clientes
+**1. Consultar Clientes**  
 
-## Permissões: :lock:
+Essa pagina traz todos os clientes do winners de acordo com a região do usuário logado. 
 
-Descrição do programa Permissões
+__Funcionalidade:__
+
+> 1. Se a região tiver filhos, é possível filtar por região  
+> 2. É possivel fazer a busca de um cliente por Nome, CPF e CNPJ.
+> 3. Clicando no Cliente, será redirecionado para as informações detalhadas do cliente.
+
+**2. Ver Mais Cliente**  
+
+Essa pagina traz informações detalhadas sobre o cliente selecionado e seus pedidos. 
+
+__Funcionalidade:__
+
+> 1. Clicando no endereço será redirecionado para o google maps mostrando a localização.  
+> 2. Se ele possuir pedidos em andamento, trará uma lista com todos os pedidos em andamento e seus respectivos status.
+> 3. No final da pagina existe uma lista com os 10 ultimos pedidos, sendo possivel clicar e visualizá-lo.
 
 ## Usuários: :frowning_person:
 
 Usuários serão cadastrados pelo time de infra-estrutura interno, e serão repassados os representantes.  
-
+Cada usuário pode pertencer a diversos grupos de permissão.  
 Existe um cadastro de Usuário Fake, sendo possivel cadastrar email, usuário e senha, somente para fins da loja Apple.
 
+## Grupos de Permissão: :lock:
+
+Grupos de permissão serão criados pelo time de infra-estrutura interno, a cada grupo terá acesso aos programos necessários.
+
 ## Offline: :signal_strength:
+
+Descrição das funcionalidades Offline
+
+## Home: :house:
+
+Essa é a tela inicial, possuem duas homes, uma para quando está logado e a outra não.  
+
+__Funcionalidade Logado:__
+
+> 1. Existem dois atalhos, Novo Cliente e Novo Pedido.  
+> 2. Componente de Meta do representante, podendo selecionar o quadrimestre do ano e ver sua meta.
+
+__Funcionalidade Deslogado:__
+
+> 1. Carrosel de imagens com os produtos da Feltrin.  
+> 2. Links para redes sociais e site.
+
+## MainLayout: :houses:
 
 Descrição das funcionalidades Offline
 
