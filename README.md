@@ -270,7 +270,38 @@ __Funcionalidade Deslogado:__
 
 ## MainLayout: :houses:
 
-Descrição das funcionalidades Offline
+MainLayout é o Layout padrão de todas as paginas, aqui está o Menu, Header, Botões do Login e estilização geral do APP.  
+
+**protected override async Task OnInitializedAsync()**  
+
+Esse método serão inicializadas todas as informações necessários para o APP funcionar. 
+> 1. Primeiro é verificado se possui Token, se possuir é verificado sua validade.
+> 2. Se estiver logado é enviado os Pedidos e Clientes pendentes, que foram cadastrados offline.
+> 3. É feita todas as chamadas assincronas para as informações ja irem carregando. 
+
+**public async Task FiltrarMenuItems()**
+
+Esse método declara e faz toda a lógica do menu.
+> 1. Primeiro é feito a busca de permissões e salva em um arquivo para funcionar offline.
+> 2. Depois é declarado todo o menu.
+> 3. E por ultimo é filtrado para aparecer somente os programas que o usuário possui permissão. 
+
+**private async Task<string> Notificacao()**
+
+Esse método é chamado quando eu feito Login
+> 1. Registra a região do usuário logado no usuário do OneSignal,  
+para esse usuário receber somente as notificações referentes a sua região.  
+
+**private async Task<string> NotificacaoDesvincular()**
+
+Esse método é chamado quando é feito o logout ou o tempo de validade do token expira
+> 1. Desvincula a região ao usuário do oneSignal. 
+
+**private async void HandleLocationChanged(object sender, LocationChangedEventArgs args)**
+
+Sempre que a é modifica esse método é chamado
+> 1. É feita a validação do token, se ele existe e se a validade não expirou.
+> 2. Se o token não for mais válido ou não existir o usuário é deslogado 
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
