@@ -325,3 +325,7 @@ Bibliotecas:
 The [MIT License]() (MIT)
 
 Copyright :copyright: 2024 - Feltrin Sementes
+
+
+
+<img src="./logo-Feltrin-preto.png">
