@@ -1,7 +1,7 @@
 <h1>APP Força de Vendas :shopping_cart:</h1> 
 
 <!-- <p align="center">
-  <img src="https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg"/>
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.distrimar.com.br%2Ffornecedores%2F43%2Ffeltrin-sementes&psig=AOvVaw2Pq0JwRxraxYCw_LccVcIk&ust=1729700038491000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCuwfWwookDFQAAAAAdAAAAABAa"/>
   <img src="https://img.shields.io/static/v1?label=Netlify&message=deploy&color=blue&style=for-the-badge&logo=netlify"/>
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=Ruby&message=2.6.3&color=red&style=for-the-badge&logo=ruby"/>
@@ -343,3 +343,4 @@ Copyright :copyright: 2024 - Feltrin Sementes
 
 
 
+  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.distrimar.com.br%2Ffornecedores%2F43%2Ffeltrin-sementes&psig=AOvVaw2Pq0JwRxraxYCw_LccVcIk&ust=1729700038491000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCuwfWwookDFQAAAAAdAAAAABAa"/>
