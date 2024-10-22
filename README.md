@@ -87,7 +87,13 @@ Passo a passo para rodar a aplicação dentro do simulador android. :iphone:
 <!-- **Descrição:**
 A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.   -->
 
-**1. Novo Pedido:**  
+**1. Index Pedido:**  
+
+Pagina inicial dos pedidos, traz somente os pedidos feitos no aplicativo e o botão de novo pedido.  
+> - Os pedidos que estiverem em rascunho podem ser editados, excluidos e gerado um relatório.  
+> - Os pedidos que foram enviados, podem ser visualizados, replicadas e os que ja foram integrados é possivel gerar um pdf do pedido.
+
+**2. Novo Pedido:**  
 
 A funcionalidade de Novo Pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.  
 
@@ -103,13 +109,6 @@ __Como funciona:__
 > 8. O pedido pode ser salvo como rascunho, ou finalizado.
 > 9. Após a finalização, o representante pode gerar um relatório detalhado do pedido ou enviá-lo por e-mail para o cliente.
 
-
-
-<!-- **protected override async Task OnInitializedAsync()**  
-
-- Primeiro método que é carregado quando a pagina é aberta  
-- Carrega todas as informações necessários para ser possivel efetuar um pedido:
-Lista de Preço, Formas de pagamento, Vendedores, Dados do usuário logado, comissão variável. -->
 
 **private void AdicionarAoCarrinho(vwListaDePreco item, decimal quantidade)**  
 > - Primeiro é valido se esse item já está no pedido, se estiver, a quantidade é atualizada e o preço total também,  
@@ -134,13 +133,8 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 > - A Lista de produtos é adicionada a projeção
 > - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...  
 
-**2. Index Pedido:**  
 
-Pagina inicial dos pedidos, traz somente os pedidos feitos no aplicativo e o botão de novo pedido.  
-Os pedidos que estiverem em rascunho podem ser editados, excluidos e gerado um relatório.  
-Os pedidos que foram enviados, podem ser visualizados, replicadas e os que ja foram integrados é possivel gerar um pdf do pedido.
-
-**3. Editar Pedido / Replicar Pedido**  
+**3. Editar Pedido / Replicar Pedido / Visualizar Pedido**  
 
 A maioria dos métodos são iguais a do Novo Pedido  
 
@@ -149,6 +143,9 @@ A maioria dos métodos são iguais a do Novo Pedido
 
 > Replicar Pedido:  
 > - A funcionalidade dessa pagina é replicar pedidos enviados.  
+
+> Visualizar Pedido
+> - A funcionalidade dessa pagina é somente visualizar os pedidos já enviados.
 
 **protected override async Task OnInitializedAsync()**  
 > Esse método é o primeiro a ser carregado quando a pagina abre. Aqui fazemos a busca do pedido via API através do ID,  
@@ -159,7 +156,29 @@ então é feita uma busca na Lista de Preço, para pegar as informações que fa
 
 ## Cliente: :frowning_man:
 
-Descrição do programa Cliente
+**1. Index Cliente**  
+
+Essa pagina traz a lista de cliente que foram cadastrados pelo aplicativo.  
+
+> - É possivel visualizar os clientes cadastrados.  
+> - É possivel cadastrar novos clientes.  
+> - Não é possivel editar ou excluir um cliente.  
+
+**2. Novo Cliente**  
+
+Nessa página possivel fazer o cadastro de novos clientes.  
+
+__Como funciona:__
+
+> 1. O representante seleciona o tipo de cliente (Físico ou jurídico). (Obrigatório)
+> 2. A seguir, digita o CPF ou CNPJ. (Obrigatório)
+> 3. É necessário preencher todos os campos que possuem (*) ao lado do nome. (Obrigatório)
+> 4. Para pessoa Juridica quando o CNPJ e estado forem preenchidos será feita uma busca e preencherá os campos. (Obrigatório)  
+
+
+**private async Task BuscaCadastroCliente()**  
+> - É feito a validação se o CPF ou CNPJ são validos
+> - É validado se esse clientes já existe (evitar duplicatas) 
 
 ## Consulta Pedidos: :shopping_cart:
 
