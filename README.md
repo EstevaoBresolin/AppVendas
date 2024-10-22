@@ -87,9 +87,8 @@ Passo a passo para rodar a aplicação dentro do simulador android. :iphone:
 <!-- **Descrição:**
 A funcionalidade de pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.   -->
 
-1. **Novo Pedido:**  
+**1. Novo Pedido:**  
 
-**Descrição:**
 A funcionalidade de Novo Pedido permite que os representantes comerciais realizem os pedidos dos clientes de forma rápida e eficiente.  
 
 __Como funciona:__
@@ -135,25 +134,21 @@ por exemplo um produto que é vendido em pacotes de 250 gramas, não é possivel
 > - A Lista de produtos é adicionada a projeção
 > - É adicionado todos os dados, referente a cliente, forma de pagamento, comentário, vendedores, etc...  
 
-2. **Index Pedido:**  
-
-__Descrição__
+**2. Index Pedido:**  
 
 Pagina inicial dos pedidos, traz somente os pedidos feitos no aplicativo e o botão de novo pedido.  
 Os pedidos que estiverem em rascunho podem ser editados, excluidos e gerado um relatório.  
 Os pedidos que foram enviados, podem ser visualizados, replicadas e os que ja foram integrados é possivel gerar um pdf do pedido.
 
-3. **Editar Pedido / Replicar Pedido**  
-
-__Descrição__
+**3. Editar Pedido / Replicar Pedido**  
 
 A maioria dos métodos são iguais a do Novo Pedido  
 
-Editar Pedido:  
-A funcionalidade dessa pagina é poder editar somente os rascunhos.  
+> Editar Pedido:  
+> - A funcionalidade dessa pagina é poder editar somente os rascunhos.  
 
-Replicar Pedido:  
-A funcionalidade dessa pagina é replicar pedidos enviados.  
+> Replicar Pedido:  
+> - A funcionalidade dessa pagina é replicar pedidos enviados.  
 
 **protected override async Task OnInitializedAsync()**  
 > Esse método é o primeiro a ser carregado quando a pagina abre. Aqui fazemos a busca do pedido via API através do ID,  
