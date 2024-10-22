@@ -182,7 +182,31 @@ __Como funciona:__
 
 ## Consulta Pedidos: :shopping_cart:
 
-Descrição do programa Consulta Pedidos
+**1. Consulta Pedidos**  
+
+Nessa página é possivel todos os pedidos de uma região que já estão no winners.  
+
+__Funcionalidade:__
+
+> 1. O representante seleciona os meses que ele quer ver os pedidos. (Opcional)
+> 2. Pode ser feita a busca de pedidos, bucando por Cliente, CPF, CNPJ, Numero do Pedido. (Opcional)
+> 3. Ao clicar em um pedido será mostrada todas as informações detalhados do pedido. (Opcional)
+
+**2. Visualizar Consulta Pedidos**  
+
+Essa pagina traz informações detalhadas do pedido selecionado. 
+
+__Funcionalidade:__
+
+> 1. Replicar o pedido, será replicado itens, forma de pagamento, cliente, comentários, vendedor.
+ Valor negociavel dos itens NÃO SERÁ REPLICADO ( ficará com o valor original).  
+> 2. É possivel efetuar o download do resumo do pedido.
+> 3. Clicando no nome do Cliente, será redirecionado para as informações detalhadas do cliente.
+
+**private async void Replicar(long id)**
+> Esse método é executado se for seleocinada a opção Replicar Pedido.
+> - A verificado se todos os itens ainda possuem estoque para poderem ser replicados,  
+em caso de itens em falta, é mostrado uma mensagem com os itens que não possuem estoque.
 
 ## Consulta Clientes: :busts_in_silhouette:
 
