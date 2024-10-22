@@ -32,7 +32,17 @@
   Este aplicativo de vendas é uma solução híbrida desenvolvida em .NET MAUI Blazor, projetada para atender às necessidades de representantes comerciais. Com ele, os representantes podem gerenciar eficientemente suas operações de vendas, permitindo o cadastro de clientes, realização de pedidos, geração de relatórios, consulta de informações de clientes e pedidos, além de acessar listas de preços atualizadas. O aplicativo oferece uma interface amigável e funcional, que pode ser utilizada tanto em dispositivos Android quanto IOS, podendo ser utilizado offline, proporcionando flexibilidade e praticidade para os profissionais de vendas no campo.
 </p>
 
+## Linguagens, dependencias e libs utilizadas :books:
 
+Linguagens:
+- Front End - [.Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)  
+- Comunicação via API - [API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)  
+- BackEnd - [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)  
+
+Bibliotecas:
+- Notificações [OneSignal](https://documentation.onesignal.com/reference/quick-start-api-guide)
+- Estilização/Componentes - [MudBlazor](https://mudblazor.com/docs/overview)
+- Gerar PDF - (verificar Doc) [DinkToPdf](https://github.com/rdvojmoc/DinkToPdf)
 
 ## Funcionalidades
 
@@ -256,7 +266,21 @@ Grupos de permissão serão criados pelo time de infra-estrutura interno, a cada
 
 ## Offline: :signal_strength:
 
-Descrição das funcionalidades Offline
+Certas funcionalidades do APP precisam funcionar Offline, são elas: Pedido, Cliente, Lista De Preço.
+
+**public async Task SalvarArquivo(string arquivoNome, List<T> pedidos)**
+
+Esse método serve para salvar um lista de objetos em um arquivo na memória do celular que pode ser acessado offline.
+> 1. Primeiro ele monta o caminho do arquivo.
+> 2. Depois serializa o a lista de objetos.
+> 3. E por fim salva a lista serializada no caminho arquivo criado.
+
+**public async Task<List<T>?> RetornarPedidosNaoIntegrados<T>(string arquivoNome)**
+
+Esse método retorna a Lista de objetos de um arquivo salvo na memória do celular
+> 1. Primeiro ele monta o caminho do arquivo.
+> 2. Depois ele le esse arquivo e deserializa.
+> 3. E por retorna a lista de objetos.
 
 ## Home: :house:
 
@@ -307,17 +331,7 @@ Sempre que a é modifica esse método é chamado
 > 1. É feita a validação do token, se ele existe e se a validade não expirou.
 > 2. Se o token não for mais válido ou não existir o usuário é deslogado 
 
-## Linguagens, dependencias e libs utilizadas :books:
 
-Linguagens:
-- Front End - [.Net Maui Blazor Hibrid](https://learn.microsoft.com/pt-br/aspnet/core/blazor/hybrid/tutorials/maui?view=aspnetcore-8.0)  
-- Comunicação via API - [API RESTFUL](https://aws.amazon.com/pt/what-is/restful-api/)  
-- BackEnd - [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)  
-
-Bibliotecas:
-- Notificações [OneSignal](https://documentation.onesignal.com/reference/quick-start-api-guide)
-- Estilização/Componentes - [MudBlazor](https://mudblazor.com/docs/overview)
-- Gerar PDF - (verificar Doc) [DinkToPdf](https://github.com/rdvojmoc/DinkToPdf)
 
 
 ## Licença 
